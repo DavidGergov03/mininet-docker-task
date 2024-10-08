@@ -39,9 +39,9 @@ sudo ./start_mininet.sh
 
 This script will:
 
-    Start the Floodlight container using Docker.
-    Run your Mininet Python script.
-    Open the Mininet interactive UI (if the Python script triggers it).
+1. Start the Floodlight container using Docker.
+2. Run your Mininet Python script.
+3. Open the Mininet interactive UI (if the Python script triggers it).
 
 Exiting Mininet:
 
@@ -49,5 +49,5 @@ Once you are done using the Mininet UI, type exit or press Ctrl+D to close the M
 
 After exiting, the script will:
 
-    Clean up Mininet using sudo mn -c to remove any network configuration.
-    Stop the Floodlight Docker container automatically.
+1. Clean up Mininet using sudo mn -c to remove any network configuration.
+2. Stop the Floodlight Docker container automatically.
