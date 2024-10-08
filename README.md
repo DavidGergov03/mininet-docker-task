@@ -43,7 +43,7 @@ This script will:
 2. Run your Mininet Python script.
 3. Open the Mininet interactive UI (if the Python script triggers it).
 
-Exiting Mininet:
+### Exiting Mininet:
 
 Once you are done using the Mininet UI, type exit or press Ctrl+D to close the Mininet interface.
 
